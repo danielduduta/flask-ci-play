@@ -1,5 +1,4 @@
 FROM debian:bullseye-slim as deployment
-
 # system dependencies
 RUN apt-get update
 RUN apt-get upgrade -y
